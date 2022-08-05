@@ -184,7 +184,7 @@ footer{
 @media only screen and (max-width:600px){
     .grilla_principal{
     grid-template-columns: 100%;
-    grid-template-rows: 10% 2% 82% 8%;
+    grid-template-rows: 200px 80px 1800px 150px;
     grid-template-areas: "header"
                         "texto"
                         "main"
