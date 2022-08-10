@@ -15,64 +15,145 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="grilla_principal">
-            <nav class="navbar navbar-expand-lg bg-light nav_list">
-                <div class="container-fluid">
-                    <div class="div_img"><img class="img_logo" src="./imagenes/logo_shine.png" alt="">
+    <header class="row">
+    <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg bg-light nav_list">
+            <div class="container-fluid">
+                <div class="div_img"><img class="img_logo " src="./imagenes/logo_shine.png" alt="">
+                </div>
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse div_lista" id="navbarNav">
+                    <a class="nav-link a_lista " aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link a_lista" href="./html/productos.html">Productos</a>
+                    <a class="nav-link a_lista" href="./html/setypacks.html">Set y Packs</a>
+                    <a class="nav-link a_lista" href="./html/rutinas.html">Rutinas</a>
+                    <a class="nav-link a_lista" href="./html/contacto.html">Contacto</a>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <main class="container-fluid">
+        <div class="row cols-md-12 cols-lg-12">
+            <div class="col carousel_padre">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse div_lista" id="navbarNav">
-                        <a class="nav-link a_lista " aria-current="page" href="index.html">Inicio</a>
-                        <a class="nav-link a_lista" href="./html/productos.html">Productos</a>
-                        <a class="nav-link a_lista" href="./html/setypacks.html">Set y Packs</a>
-                        <a class="nav-link a_lista" href="./html/rutinas.html">Rutinas</a>
-                        <a class="nav-link a_lista" href="./html/contacto.html">Contacto</a>
+                    <div class="carousel-inner pt-3">
+                        <div class="carousel-item active">
+                        <img src="./imagenes/banner10%.png" class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/banner-maybelline.png" class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/banner2.png" class="d-block w-100 " alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-12 text-center pb-3">
+                <h2 class="titulo_index">PRODUCTOS DESTACADOS</h2>
+            </div>
+        </div>
+        <div class="row row-cols-2  row-cols-sm-2  row-cols-md-3 row-cols-lg-4 mx-auto ">
+            <div class="col text-center mb-3">
+                    <div class="card h-100 w-75 mx-auto pt-4 ">
+                    <img src="./imagenes/cerave.jpg" class="card-img-top imgPrueba" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Crema hidratante</h5>
+                    <p class="card-text">Para la carita</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
-            </nav>
-    <div><h1 class="titulo_index">Productos destacados</h1></div>
-    <main class="grilla_mainindex">
-        <div class="div_mainimg">
-            <img class="img_mainindex" src="./imagenes/mascarapestaña2.png" alt="">
-            <h2>Maybelline</h2>
-            <p class="texto_prodindex">Máscara de Pestañas Maybelline Sensational Sky High Waterproof Very Black x 7,2 ml</p>
-            <button class="button_index">Ver producto</button>
+            </div>
         </div>
-        <div class="div_mainimg">
-            <img class="img_mainindex" src="./imagenes/Labialpinkmac.png" alt="">
-            <h2>Labial Mac</h2>
-            <p class="texto_prodindex">Labial Mac Powder Kiss Lipstick Reverence</p>
-            <button class="button_index">Ver producto</button>
+            <div class="col text-center mb-3">
+                    <div class="card h-100 w-75 mx-auto pt-4">
+                    <img src="./imagenes/cremalrp.jpg" class="card-img-top imgPrueba" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Locion corporal</h5>
+                    <p class="card-text">Para la carita</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
         </div>
-        <div class="div_mainimg">
-            <img class="img_mainindex" src="./imagenes/serum1.png" alt="">
-            <h2>Garnier</h2>
-            <p class="texto_prodindex">Garnier serum vitamina c iluminador 30 ml</p>
-            <button class="button_index">Ver producto</button>
+            <div class="col text-center mb-3 ">
+                    <div class="card h-100 w-75 mx-auto">
+                    <img src="./imagenes/mascara.jpg" class="card-img-top imgPrueba" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Mascara regeneradora</h5>
+                    <p class="card-text">Para la carita</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            </div>
+            <div class="col text-center mb-3">
+                <div class="card h-100 w-75 mx-auto pt-4">
+                    <img src="./imagenes/shampoovegan.jpg" class="card-img-top imgPrueba" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Kit capilar</h5>
+                    <p class="card-text">Adios frizz</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
         </div>
-        <div class="div_mainimg">
-            <img class="img_mainindex" src="./imagenes/Sombras.png" alt="">
-            <h2>NYX Paleta de Sombras</h2>
-            <p class="texto_prodindex">Paleta de 16 sombras de ojos de alto rendimiento en un arco iris de tonos 16X0,83 Gr</p>
-            <button class="button_index">Ver producto</button>
+            <div class="col text-center mb-3">
+                    <div class="card h-100 w-75 mx-auto">
+                    <img src="./imagenes/rutinaskin8.png" class="card-img-top imgPrueba" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Brochas</h5>
+                    <p class="card-text">Los multiples usos de la brocha</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
         </div>
-        <div class="div_mainimg">
-            <img class="img_mainindex" src="./imagenes/correctodeojeras.png" alt="">
-            <h2>Maybelline</h2>
-            <p class="texto_prodindex">Corrector de Maquillaje Maybelline Fit Me Concealer x 6,8 ml </p>
-            <button class="button_index">Ver producto</button>
+            <div class="col text-center  mb-3">
+                    <div class="card h-100 w-75 mx-auto">
+                    <img src="./imagenes/pexels-cottonbro-4004122.jpg" class="card-img-top imgPrueba" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Weekend-Relax</h5>
+                    <p class="card-text">Rutina de finde</p>
+                    <a href="#" class="btn btn-primary">Ver +</a>
+                </div>
+            </div>
         </div>
-        <div class="div_mainimg">
-            <img class="img_mainindex" src="./imagenes/Delineador.png" alt="">
-            <h2>VOGUE</h2>
-            <p class="texto_prodindex">Delineador de ojos liquido Resist negro 4 ml</p>
-            <button class="button_index">Ver producto</button>
+            <div class="col text-center mb-3">
+                    <div class="card h-100 w-75 mx-auto">
+                    <img src="./imagenes/rutinaskin5.jpg" class="card-img-top imgPrueba" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Bases</h5>
+                    <p class="card-text">¿Que tono se adapta a mi piel?</p>
+                    <a href="#" class="btn btn-primary">Ver +</a>
+                </div>
+            </div>
         </div>
+            <div class="col text-center mb-3">
+                    <div class="card h-100 w-75 mx-auto pt-4">
+                    <img src="./imagenes/MAscaracombo.jpg" class="card-img-top imgPrueba" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Mascaras-skin</h5>
+                    <p class="card-text">Para la carita</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+    </div>
+    </div>
     </main>
-
     <footer>
         <div class="footer_redes">
             <p>Seguinos en nuestras redes</p>
